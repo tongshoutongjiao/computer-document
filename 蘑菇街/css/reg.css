@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font: 12px/1.6 tahoma,arial,sans-serif;
+    background: #fff;
+    text-decoration: none;
+}
+.media-screen{
+min-width: 1200px;
+}
+.login-wrap{
+    width: 900px;
+    margin: 0 auto;
+    padding: 27px 0 33px;
+    min-height: 580px;
+}
+.logo .logo-img{
+    background: url(../img/reg.png) no-repeat;
+    display: inline-block;
+    width: 220px;
+    height: 52px;
+}
+.content:after{
+    content: ".";
+    display: block;
+    height: 0;
+    font-size: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.logBanner{
+    width: 400px;
+    padding: 20px 0 0 40px;
+    float: left;
+    display: inline;
+}
+.logBanner a{
+    height: 300px;
+    margin-bottom: 10px;
+    display: block;
+    width: 400px;
+    overflow: hidden;
+}
+a img{
+    border: 0;
+    vertical-align: middle;
+}
+
+.rg-list{
+    width: 322px;
+    float: right;
+    display: inline;
+    border: 1px solid #dcdcdc;
+    padding: 0 0 30px 38px;
+}
+.rg-list .regist{
+    margin-left: -38px;
+}
+.rg-list .regist h3{
+    font-size: 14px;
+    color: #333;
+    padding: 7px 40px;
+    height: 42px;
+    line-height: 42px;
+    border-bottom: 1px solid #ccc;
+    font-weight: bolder;
+}
+.rg-list .signform{
+    margin-top: 20px;
+}
+.sign-item{
+    height: 30px;
+}
+.signform p{
+    background: url(../img/error.png)12px no-repeat #fffff8;
+    border: 1px solid #ffd797;
+    height: 30px;
+    line-height: 30px;
+    color: #ff5783;
+    width: 240px;
+    padding-left: 40px;
+    margin-bottom: 9px;
+    display: none;
+}
+.mb{
+    position: relative;
+    margin-bottom: 15px;
+}
+select.country{
+    float: left;
+    width: 104px;
+    height: 30px;
+    margin-right: 10px;
+    line-height: 1.5;
+    border: 1px solid #c4c4c4;
+    border-radius: 0;
+    color: #333;
+    font-size: 14px;
+    padding: 4px 35px 4px 10px;
+    -webkit-appearance: none;
+    background: url(../img/teliron.png) 100% no-repeat #fff;
+    outline: none;
+}
+select.country option{
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+.short-text{
+    background: none!important;
+    border: 1px solid #ccc;
+    height: 28px;
+    padding: 0 6px;
+    float: left;
+    width: 155px;
+    outline: none;
+}
+.checkWord a{
+    float: left;
+    margin-left: 10px;
+    width: 105px;
+    height: 30px;
+    background: #f55;
+    border-radius: 2px;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+}
+ .sub{
+    display: inline;
+    border: none;
+    width: 285px;
+    height: 30px;
+    background: #ff4066;
+    border-radius: 2px;
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+}
+ .mynum a{
+     float: right;
+     margin-right: 40px;
+     color: #666;
+     text-decoration: underline;
+ }
+
+
+
+
+
+
+
+
+
+
+
+.login-foot{
+    background: url(../img/footer.png) repeat;
+    margin-top: 50px;
+}
+.foot-Con{
+    width: 900px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+.codeBox{
+    float: right;
+}
+.codeBox h3{
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+.codeBox .qr_code{
+    background: url(../img/qr_code.png) no-repeat;
+    display: block;
+    width: 180px;
+    height: 76px;
+}
+.login-foot .foot-Con .foot-list{
+    float: left;
+    display: inline;
+}
+.login-foot .foot-Con .foot-list li{
+    float: left;
+    display: inline;
+    width: 130px;
+}
+.login-foot .foot-Con .foot-list{
+    margin-bottom: 30px;
+}
+.foot-list li a,.foot-list li p{
+    display: block;
+    color: #666;
+    line-height: 24px;
+}
+.foot-Con h3{
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+.foot-list li h3{
+    margin-bottom: 8px;
+}
+.copyRight{
+    clear: both;
+    padding-top: 0;
+    margin: 0;
+    text-align: center;
+    color: #999;
+    border-top: 1px dashed #dcdcdc;
+    height: 40px;
+    line-height: 40px;
+}
+
+
+
